@@ -21,8 +21,14 @@ nav {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Condensed', sans-serif; }
 
-.brand-logo {
-  font-family: 'Roboto Condensed', sans-serif; }
+nav .brand-logo {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex; }
+  nav .brand-logo img {
+    margin-top: 10px; }
+  nav .brand-logo span {
+    display: inline-block;
+    padding-left: 8px; }
 
 .card .card-image .card-title {
   padding: 5px 10px; }
@@ -76,5 +82,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .subpage .parallax-container {
   height: 300px; }
+
+.card .card-content p {
+  height: 88px;
+  overflow: hidden; }
+
+.modal_img {
+  width: 100%;
+  margin-top: 20px; }
+
+footer {
+  padding-bottom: 15px; }
 
 /*# sourceMappingURL=style.css.map */

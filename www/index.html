@@ -14,26 +14,27 @@
 
 <body>
     <div class="navbar-fixed">
-    <nav class="cyan lighten-2 z-depth-0" role="navigation">
-        <div class="nav-wrapper container">
-            <a href="#!" class="brand-logo">DONATE <span class="">DK</span></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">Why donate?</a></li>
-                <li><a href="badges.html">Donor</a></li>
-                <li><a href="mobile.html">about us</a></li>
-                <li><a href="mobile.html"><li><a class="white teal-text z-depth-0 btn">Donate now</a></li></a></li>
-            </ul>
-            <ul class="sidenav" id="mobile-demo">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">Javascript</a></li>
-                <li><a href="mobile.html">Mobile</a></li>
-                <li><a href="mobile.html"><li><a class="white teal-text z-depth-0 btn">Donate now</a></li></a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
+        <nav class="cyan lighten-2 z-depth-0" role="navigation">
+            <div class="nav-wrapper container">
+                <a href="index.html" class="brand-logo"><img src="img/logo.svg" height="40px" alt=""> <span class="">DONATE
+                        DK</span></a>
+
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="receiver.html">Why donate?</a></li>
+                    <li><a href="donor.html">Donor</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                    <li><a href="donate.html" class="white teal-text z-depth-0 btn">Donate now</a></li>
+                </ul>
+                <ul class="sidenav" id="mobile-demo">
+                    <li><a href="receiver.html">Why donate?</a></li>
+                    <li><a href="donor.html">Donor</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                    <li><a href="donate.html" class="white teal-text z-depth-0 btn">Donate now</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
@@ -44,7 +45,7 @@
                     <h5 class="header col s12 light grey-text text-lighten-4">You can make a difference even after your death</h5>
                 </div>
                 <div class="row center">
-                    <a href="#" id="download-button" class="btn-large waves-effect waves-teal cyan lighten-2">Learn more</a>
+                    <a href="receiver.html" id="download-button" class="btn-large waves-effect waves-teal cyan lighten-2">Why donate?</a>
                 </div>
 
 
@@ -55,75 +56,167 @@
 
 
     <div class="section">
-    <div class="container">
-            
+        <div class="container">
+
             <!--   Icon Section   -->
             <div class="row">
                 <h4 class="header col s12 cyan-text text-darken-2 sec-head">Donors Stories</h4>
-                <div class="col s12 m4">
-                    <div class="card z-depth-0">
-                        <div class="card-image">
-                            <img src="img/sample-1.jpg">
-                            <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
 
+                <!-- Card Begain -->
                 <div class="col s12 m4">
                     <div class="card z-depth-0">
                         <div class="card-image">
-                            <img src="img/sample-1.jpg">
-                            <span class="card-title">Card Title</span>
+                            <img src="img/Carl-Pinder.jpg">
+                            <span class="card-title">Carl Pinder</span>
                         </div>
                         <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                because I require little markup to use effectively.</p>
+                            <p>Carl, donated his kidney to a stranger Carl became a donor after seeing a friend’s life saved
+                                by a transplant following years of poor health. “I was proud to get the call and it was emotional
+                                because I thought - the recipient will be getting their call at the same point.” After surgery,
+                                he was gently jogging in three weeks, back in work on light duties after four weeks and pretty
+                                well recovered after six weeks. He had a letter from the recipient expressing their thanks.
+                                Carl said: “It was a life affirming experience. If I had a third kidney I would happily do
+                                it again.”
+                            </p>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <!-- Modal Trigger -->
+                            <a href="#carl" class="modal-trigger">Full story</a>
                         </div>
-                    </div>
-                </div>
+                        <!-- Modal Structure -->
+                        <div id="carl" class="modal modal-fixed-footer">
+                            <div class="modal-content">
+                                <h4>Carl Pinder</h4>
 
-                <div class="col s12 m4">
-                    <div class="card z-depth-0">
-                        <div class="card-image">
-                            <img src="img/sample-1.jpg">
-                            <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
+                                <div class="col m4 s12"><img src="img/Carl-Pinder.jpg" class="modal_img"></div>
+                                <p class="col m8 s12"> Carl, donated his kidney to a stranger Carl became a donor after seeing
+                                    a friend’s life saved by a transplant following years of poor health. “I was proud to
+                                    get the call and it was emotional because I thought - the recipient will be getting their
+                                    call at the same point.” After surgery, he was gently jogging in three weeks, back in
+                                    work on light duties after four weeks and pretty well recovered after six weeks. He had
+                                    a letter from the recipient expressing their thanks. Carl said: “It was a life affirming
+                                    experience. If I had a third kidney I would happily do it again.”</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- Card End -->
+
+
+
+
+                <!-- Card Begain -->
+                <div class="col s12 m4">
+                    <div class="card z-depth-0">
+                        <div class="card-image">
+                            <img src="img/Betty_taylor.jpg">
+                            <span class="card-title">Betty Taylor</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Was 67-year-old when she was diagnosed with advanced liver disease and kidney problems a few
+                                years ago after severe tiredness forced her to visit her doctor. She said: “By March last
+                                year, I had become really ill. I found it incredibly difficult to eat so my weight dropped
+                                considerably and everyday it was a struggle to get out of bed.It was a very difficult time.”
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <!-- Modal Trigger -->
+                            <a href="#betty" class="modal-trigger">Full story</a>
+                        </div>
+                        <!-- Modal Structure -->
+                        <div id="betty" class="modal modal-fixed-footer">
+                            <div class="modal-content">
+                                <h4>Betty Taylor</h4>
+
+                                <div class="col m4 s12"><img src="img/Betty_taylor.jpg" class="modal_img"></div>
+                                <p class="col m8 s12">
+                                    Was 67-year-old when she was diagnosed with advanced liver disease and kidney problems a few years ago after severe tiredness
+                                    forced her to visit her doctor. She said: “By March last year, I had become really ill.
+                                    I found it incredibly difficult to eat so my weight dropped considerably and everyday
+                                    it was a struggle to get out of bed.It was a very difficult time.” Despite a setback
+                                    in July 2011 when a transplant she was called for didn’t go ahead, Betty received the
+                                    happiest of New Year news when she was told that kidney and liver matches had been found
+                                    for her just a few days into 2012. Both operations went well and Betty’s recovery has
+                                    continued since. She said: “I know that my life would be completely different without
+                                    my kidney and liver transplants and I am so grateful that someone made the decision to
+                                    join the Organ Donor Register as that decision has saved my life. I often think about
+                                    my donor’s family too and how they allowed the donation to go ahead which is very humbling
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card End -->
+
+
+
+                <!-- Card Begain -->
+                <div class="col s12 m4">
+                    <div class="card z-depth-0">
+                        <div class="card-image">
+                            <img src="img/jimm.jpg">
+                            <span class="card-title">Jimmie Sue</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Jimmie Sue, 76, who was born with only one kidney, was told that she would need a new one
+                                after it started failing, giving her only months to live. Her husband, Larry Swilling in
+                                his bid to find his dying wife a kidney. The 78-year-old man was so determined to give his
+                                wife, a second chance at life.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <!-- Modal Trigger -->
+                            <a href="#jim" class="modal-trigger">Full story</a>
+                        </div>
+                        <!-- Modal Structure -->
+                        <div id="jim" class="modal modal-fixed-footer">
+                            <div class="modal-content">
+                                <h4>Jimmie Sue</h4>
+
+                                <div class="col m4 s12"><img src="img/jimm.jpg" class="modal_img"></div>
+                                <p class="col m8 s12">
+                                    Jimmie Sue, 76, who was born with only one kidney, was told that she would need a new one after it started failing, giving
+                                    her only months to live. Her husband, Larry Swilling in his bid to find his dying wife
+                                    a kidney. The 78-year-old man was so determined to give his wife, a second chance at
+                                    life. Mr. Swilling and the couple's three children proved to be unsuitable matches and
+                                    they faced a lengthy waiting list for a suitable organ. In September 2013, their hopes
+                                    and wishes were finally granted after retired Navy lieutenant commander Kelly Weaverling
+                                    donated one of her kidneys in a lifesaving operation. The procedure was hailed as a success,
+                                    with the couple meeting Ms. Weaverling to personally thank her for her generous gift.
+
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card End -->
+
                 <div class="col s12 read_more">
-                        <a href="#" class="cyan-text text-darken-2">More stories</a>
-                    </div>
+                    <a href="donor.html" class="cyan-text text-darken-2">More stories</a>
+                </div>
             </div>
 
         </div>
     </div>
-   
-<div class="stat">
-    <div class="section parallax-container">
-    <div class="container">
-                
+
+    <div class="stat">
+        <div class="section parallax-container">
+            <div class="container">
+
                 <!--   Icon Section   -->
                 <div class="row">
                     <div class="col s12 m8 ">
-                        <h4 class="sec-head">Denmark lagging behind <br> in organ donation :(</h4>
-                        
+                        <h4 class="sec-head">Denmark lagging behind <br> in organ donation </h4>
+
                         <h1 class="stat_one">448<small> Patients were actively on waiting list at the end of the year</small></h1>
                     </div>
                     <div class="col s12 m4 stat_two">
@@ -138,110 +231,207 @@
                     </div>
 
                 </div>
-    
+
             </div>
             <div class="parallax"><img src="img/bg1.png" alt=""></div>
         </div>
     </div>
 
     <div class="container">
-            <div class="section">
-                
-                <!--   Icon Section   -->
-                <div class="row">
-                    <h4 class="header col s12 cyan-text text-darken-2 sec-head">Recivers Stories</h4>
-                    <div class="col s12 m4">
-                        <div class="card z-depth-0">
-                            <div class="card-image">
-                                <img src="img/sample-1.jpg">
-                                <span class="card-title">Card Title</span>
+        <div class="section">
+
+            <!--   Icon Section   -->
+            <div class="row">
+                <h4 class="header col s12 cyan-text text-darken-2 sec-head">Recivers Stories</h4>
+
+
+                <!-- Card Begain -->
+                <div class="col s12 m4">
+                    <div class="card z-depth-0">
+                        <div class="card-image">
+                            <img src="img/alex.jpg">
+                            <span class="card-title">Alex's mum</span>
+                        </div>
+                        <div class="card-content">
+                            <p>”It's very humbling, somebody else lost their child and enabled me to keep mine.” Julie Alex's
+                                mum Alex was diagnosed with a rare form of heart disease, before he was born. The condition
+                                meant he had no pulmonary valve and at two weeks old, he had an operation. Alex was given
+                                a donated heart valve. Alex is now a happy child although he will need more procedures throughout
+                                his life. Alex´s mum, Julie, said: "He is doing fab though, his heart is doing great and
+                                looking at him you wouldn't even know anything was wrong.</p>
+                        </div>
+                        <div class="card-action">
+                            <!-- Modal Trigger -->
+                            <a href="#alex" class="modal-trigger">Full story</a>
+                        </div>
+                        <!-- Modal Structure -->
+                        <div id="alex" class="modal modal-fixed-footer">
+                            <div class="modal-content">
+                                <h4>Alex's mum</h4>
+
+                                <div class="col m4 s12"><img src="img/alex.jpg" class="modal_img"></div>
+                                <p class="col m8 s12"> ”It's very humbling, somebody else lost their child and enabled me
+                                    to keep mine.” Julie Alex's mum Alex was diagnosed with a rare form of heart disease,
+                                    before he was born. The condition meant he had no pulmonary valve and at two weeks old,
+                                    he had an operation. Alex was given a donated heart valve. Alex is now a happy child
+                                    although he will need more procedures throughout his life. Alex´s mum, Julie, said: "He
+                                    is doing fab though, his heart is doing great and looking at him you wouldn't even know
+                                    anything was wrong.</p>
                             </div>
-                            <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                    because I require little markup to use effectively.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="#">Full story</a>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
                             </div>
                         </div>
                     </div>
-    
-                    <div class="col s12 m4">
-                        <div class="card z-depth-0">
-                            <div class="card-image">
-                                <img src="img/sample-1.jpg">
-                                <span class="card-title">Card Title</span>
+                </div>
+                <!-- Card End -->
+
+
+
+
+                <!-- Card Begain -->
+                <div class="col s12 m4">
+                    <div class="card z-depth-0">
+                        <div class="card-image">
+                            <img src="img/peter.jpg">
+                            <span class="card-title">Peter's story</span>
+                        </div>
+                        <div class="card-content">
+                            <p>After suffering with heart blockages, I finally presented to hospital for treatment and operated
+                                on for thirteen hours and told that I was now a candidate for a heart transplant. As a fit,
+                                hard working young man and father of four, this came as a surprise to my family. After waiting
+                                for four years in 2000, I got the call that a heart was available and I had my first transplant.
+                                Unfortunately, in 2006 I was back in hospital with heart failure. I was told I needed a second
+                                heart transplant. After learning to walk, talk and eat again I was released from hospital
+                                and within a month of my discharge I was able to celebrate our 25th wedding anniversary and
+                                see my children get married. I now have grandchildren and three weddings to attend. I am
+                                currently the President of the Australian Heart/Lung Transplants Association and I am forever
+                                grateful to the two people who have given me the gift of life.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <!-- Modal Trigger -->
+                            <a href="#peter" class="modal-trigger">Full story</a>
+                        </div>
+                        <!-- Modal Structure -->
+                        <div id="peter" class="modal modal-fixed-footer">
+                            <div class="modal-content">
+                                <h4>Peter's story</h4>
+
+                                <div class="col m4 s12"><img src="img/peter.jpg" class="modal_img"></div>
+                                <p class="col m8 s12">
+                                    After suffering with heart blockages, I finally presented to hospital for treatment and operated on for thirteen hours and
+                                    told that I was now a candidate for a heart transplant. As a fit, hard working young
+                                    man and father of four, this came as a surprise to my family. After waiting for four
+                                    years in 2000, I got the call that a heart was available and I had my first transplant.
+                                    Unfortunately, in 2006 I was back in hospital with heart failure. I was told I needed
+                                    a second heart transplant. After learning to walk, talk and eat again I was released
+                                    from hospital and within a month of my discharge I was able to celebrate our 25th wedding
+                                    anniversary and see my children get married. I now have grandchildren and three weddings
+                                    to attend. I am currently the President of the Australian Heart/Lung Transplants Association
+                                    and I am forever grateful to the two people who have given me the gift of life.
+
+                                </p>
                             </div>
-                            <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                    because I require little markup to use effectively.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="#">Full story</a>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
                             </div>
                         </div>
                     </div>
-    
-                    <div class="col s12 m4">
-                        <div class="card z-depth-0">
-                            <div class="card-image">
-                                <img src="img/sample-1.jpg">
-                                <span class="card-title">Card Title</span>
+                </div>
+                <!-- Card End -->
+
+
+
+                <!-- Card Begain -->
+                <div class="col s12 m4">
+                    <div class="card z-depth-0">
+                        <div class="card-image">
+                            <img src="img/fred.jpg">
+                            <span class="card-title">Four-year-old Freddie</span>
+                        </div>
+                        <div class="card-content">
+                            <p>“As a mummy you can always kiss every fall, cut, bruise and make it better. This is all I
+                                wanted to do.I thought about it morning, noon and night. The person who is responsible for
+                                Freddie’s gift left a legacy they will never have the honour of knowing about. Freddie’s
+                                organ donor. Our hero. Until you are a family waiting for a donor you can never understand
+                                the importance of signing the organ donation register. It might be one of those things you
+                                think you’ll do another time. If you, your child or anyone close to you ever needs an organ,
+                                you’ll know the desperation felt by families on the transplant list.”
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <!-- Modal Trigger -->
+                            <a href="#fred" class="modal-trigger">Full story</a>
+                        </div>
+                        <!-- Modal Structure -->
+                        <div id="fred" class="modal modal-fixed-footer">
+                            <div class="modal-content">
+                                <h4>Four-year-old Freddie</h4>
+
+                                <div class="col m4 s12"><img src="img/fred.jpg" class="modal_img"></div>
+                                <div class="col m8 s12">
+                                    <p>“As a mummy you can always kiss every fall, cut, bruise and make it better. This is
+                                        all I wanted to do.I thought about it morning, noon and night. </p>
+                                    <p>The person who is responsible for Freddie’s gift left a legacy they will never have
+                                        the honour of knowing about.</p>
+                                    <p>Freddie’s organ donor. Our hero. Until you are a family waiting for a donor you can
+                                        never understand the importance of signing the organ donation register. It might
+                                        be one of those things you think you’ll do another time. If you, your child or anyone
+                                        close to you ever needs an organ, you’ll know the desperation felt by families on
+                                        the transplant list.”</p>
+
+                                </div>
                             </div>
-                            <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                    because I require little markup to use effectively.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="#">Full story</a>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 read_more">
-                        <a href="#" class="cyan-text text-darken-2">More stories</a>
-                    </div>
+                </div>
+                <!-- Card End -->
+
+
+                <div class="col s12 read_more">
+                    <a href="receiver.html" class="cyan-text text-darken-2">More stories</a>
                 </div>
             </div>
         </div>
-       
+    </div>
+
 
     <footer class="page-footer blue-grey darken-3 z-depth-0">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Company Bio</h5>
-                    <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's
-                        our full time job. Any amount would help support and continue development on this project and is
-                        greatly appreciated.</p>
-
-
+                    <h5 class="white-text">Donate DK</h5>
+                    <p class="grey-text text-lighten-4">Donate Denmark is a non-profit organization, created to establish
+                        a relationship between the donor and the persons in need of organs. We are a young team of 4 persons
+                        with a wide background in the medical field, as well as the human resources management.
+                    </p>
                 </div>
                 <div class="col l3 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
-                        <li><a class="white-text" href="#!">Link 1</a></li>
-                        <li><a class="white-text" href="#!">Link 2</a></li>
-                        <li><a class="white-text" href="#!">Link 3</a></li>
-                        <li><a class="white-text" href="#!">Link 4</a></li>
+                        <li><a class="white-text" href="receiver.html">Why donate?</a></li>
+                        <li><a class="white-text" href="donor.html">Donor</a></li>
+                        <li><a class="white-text" href="about_us.html">about us</a></li>
+                        <li><a class="white-text" href="donate.html">Donate now</a></li>
                     </ul>
                 </div>
                 <div class="col l3 s12">
                     <h5 class="white-text">Connect</h5>
                     <ul>
-                        <li><a class="white-text" href="#!">Link 1</a></li>
-                        <li><a class="white-text" href="#!">Link 2</a></li>
-                        <li><a class="white-text" href="#!">Link 3</a></li>
-                        <li><a class="white-text" href="#!">Link 4</a></li>
+                        <li><a class="white-text" href="#">facebook</a></li>
+                        <li><a class="white-text" href="#">Twitter</a></li>
+                        <li><a class="white-text" href="#">Youtube</a></li>
+                        <li><a class="white-text" href="#">LinkedIn</a></li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <div class="footer-copyright">
-            <div class="container">
-                Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-            </div>
-        </div>
+
     </footer>
 
 
@@ -254,6 +444,7 @@
         $(document).ready(function () {
             $('.sidenav').sidenav();
             $('.parallax').parallax();
+            $('.modal').modal();
         });
     </script>
 </body>
